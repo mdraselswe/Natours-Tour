@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /*  rem root default font size is: 16px
+        we can use: 10px becasue it's easy to convert px to rem 
+        perfect use is percentage value
+        so we use: (10/16)*100 = 62.5%
+    */
+  // This defines what 1 rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
